@@ -49,9 +49,6 @@ demo = [
     "matplotlib",
 ]
 
-[tool.setuptools]
-packages = ["LAMBDA"]
-
 [tool.pytest.ini_options]
 minversion = "6.0"
 addopts = "--cov --cov-report term"
