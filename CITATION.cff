@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "LAMBDA 4.0 Toolbox"
+version: "4.0.0"
+abstract: "LAMBDA 4.0 provides mixed-integer least-squares estimation and evaluation tools for GNSS and related PNT applications."
+license: "Apache-2.0"
+type: software
+repository-code: "https://github.com/LotfiMassarweh/LAMBDA-Python"
+repository-artifact: "https://pypi.org/project/LAMBDA-Python/"
+keywords:
+  - GNSS
+  - mixed-integer least-squares
+  - ambiguity resolution
+  - LAMBDA
+  - PNT
+authors:
+  - family-names: "Massarweh"
+    given-names: "Lotfi"
+    affiliation: "TU Delft"
+  - family-names: "Verhagen"
+    given-names: "Sandra"
+    affiliation: "TU Delft"
+  - family-names: "Teunissen"
+    given-names: "Peter J. G."
+    affiliation: "TU Delft"
+
+preferred-citation:
+  type: article
+  title: "New LAMBDA toolbox for mixed-integer models: estimation and evaluation"
+  authors:
+    - family-names: "Massarweh"
+      given-names: "Lotfi"
+    - family-names: "Verhagen"
+      given-names: "Sandra"
+    - family-names: "Teunissen"
+      given-names: "Peter J. G."
+  journal: "GPS Solutions"
+  year: 2025
+  volume: "29"
+  start: "14"
+  doi: "10.1007/s10291-024-01738-z"
+  url: "https://link.springer.com/article/10.1007/s10291-024-01738-z"
