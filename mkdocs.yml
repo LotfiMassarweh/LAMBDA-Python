@@ -1,0 +1,68 @@
+site_name: LAMBDA Documentation
+repo_url: https://github.com/LotfiMassarweh/LAMBDA-Python
+repo_name: LAMBDA-Python
+
+nav:
+  - Getting started:
+    - About LAMBDA: index.md
+
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+      primary: black
+      accent: red
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+      primary: black
+      accent: pink
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - content.code.copy
+
+plugins:
+- mkdocs-jupyter:
+      include_source: True
+- search
+- mkdocstrings:
+    handlers:
+      python:
+        options:
+          docstring_style: numpy
+          docstring_options:
+            ignore_init_summary: true
+          merge_init_into_class: true
+          docstring_section_style: list
+          show_submodules: true
+          show_root_heading: true
+          show_source: true
+          heading_level: 3
+          relative_crossrefs: true
+          parameter_headings: false
+          separate_signature: true
+          show_bases: true
+          show_signature_annotations: true
+          show_symbol_type_heading: true
+          signature_crossrefs: true
+          summary: true
+          backlinks: tree
+          scoped_crossrefs: true
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.highlight
+
+extra:
+  generator: false
